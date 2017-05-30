@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "minify-scrollspy": "uglifyjs --compress warnings=false --mangle --comments '/^!/' --source-map --output bootstrap-scrollspy.min.js node_modules/bootstrap/js/scrollspy.js",
+    "minify-scrollspy-location": "uglifyjs --compress warnings=false --mangle --comments '/^!/' --source-map --output bootstrap-scrollspy-location.min.js src/bootstrap-scrollspy-location.js",
+    "build": "npm-run-all minify-scrollspy minify-scrollspy-location"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "npm-run-all": "^4.0.2",
+    "uglify-js": "^3.0.13"
+  }
+}

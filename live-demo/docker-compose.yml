@@ -1,0 +1,20 @@
+version: '2'
+services:
+
+  wordpress:
+    #image: wordpress
+    build:
+      context: ./
+      dockerfile: Dockerfile-wordpress
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_PASSWORD: example
+    volumes:
+      - ../:/var/www/html/wp-content/themes/twentyseventeen-onepage
+
+  mysql:
+    image: mariadb:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+

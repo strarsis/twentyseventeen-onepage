@@ -1,0 +1,35 @@
+/*
+Theme Name:         Twenty Seventeen One Page example
+Description:        One Page features for the Twenty Seventeen theme
+Author:             strarsis
+Template:           twentyseventeen
+Version:            1.0.0
+Text Domain:        twenty-seventeen-onepage
+*/
+
+
+/* Add offset for anchors when admin-bar is shown */
+.twentyseventeen-panel,
+:target:before { /* and for other anchor targets */
+  padding-top: 32px;
+  margin-top: -32px;
+  top:         32px;
+  position: relative;
+}
+:target:before {
+  content: "";
+  display: block;
+  visibility: hidden;
+}
+
+
+.navigation-top .current-menu-item > a,
+.navigation-top .current_page_item > a,
+.navigation-top .active > a {
+
+  /* Color of original theme styles: */
+  /* color: #767676; */
+
+  /* Using red so it is more clear in this example */
+	color: red;
+}
