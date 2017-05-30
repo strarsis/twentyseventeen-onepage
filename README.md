@@ -3,7 +3,6 @@
 
 Child theme of Twenty Seventeen with adjustments for an one page / single page site.
 
-
 ## Features
 
 - Page slugs as anchors! 🦄
@@ -19,3 +18,7 @@ Use links to anchor with the page slug (#page-slug) in navigation menu.
 
 Plugin for smooth scrolling to target anchor:
 [jQuery Smooth Scroll](https://wordpress.org/plugins/jquery-smooth-scroll/)
+
+## Live demo
+
+See README in [live-demo/](live-demo/).
