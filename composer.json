@@ -1,0 +1,16 @@
+{
+    "name": "strarsis/twentyseventeen-onepage",
+    "description": "Child theme of Twenty Seventeen with adjustments for an one page / single page site",
+    "type": "wordpress-theme",
+    "require": {
+        "wpackagist-theme/twentyseventeen": "1.2",
+        "wpackagist-plugin/jquery-smooth-scroll": "1.4.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "strarsis",
+            "email": "strarsis@gmail.com"
+        }
+    ]
+}
