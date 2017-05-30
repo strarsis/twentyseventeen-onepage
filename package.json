@@ -8,5 +8,12 @@
     "bootstrap": "^3.3.7",
     "npm-run-all": "^4.0.2",
     "uglify-js": "^3.0.13"
-  }
+  },
+  "name": "twentyseventeen-onepage",
+  "version": "1.0.0",
+  "description": "Child theme of Twenty Seventeen with adjustments for an one page / single page site",
+  "main": "style.css",
+  "repository": "https://github.com/strarsis/twentyseventeen-onepage.git",
+  "author": "strarsis <strarsis@gmail.com>",
+  "license": "MIT"
 }
