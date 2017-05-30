@@ -12,7 +12,7 @@ function onepage_enqueue_styles() {
   );
 
   // Bootstrap Scrollspy
-  wp_enqueue_script( 'bootstrap-scrollspy', get_stylesheet_directory_uri() . '/bootstrap-scrollspy.min.js' );
+  wp_enqueue_script( 'bootstrap-scrollspy', get_stylesheet_directory_uri() . '/bootstrap-scrollspy.min.js', array('jquery') );
 
   // Location update for Scrollspy
   wp_enqueue_script( 'bootstrap-scrollspy-location', get_stylesheet_directory_uri() . '/bootstrap-scrollspy-location.min.js', array('bootstrap-scrollspy') );
