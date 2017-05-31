@@ -22,3 +22,6 @@ Plugin for smooth scrolling to target anchor:
 ## Live demo
 
 See README in [live-demo/](live-demo/).
+
+## TODO:
+Make top navigation always sticky (also sticky on mobile).
