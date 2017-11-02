@@ -5,10 +5,9 @@
 
 global $twentyseventeencounter;
 
-/* Replaced `the_ID()` with `echo $post->post_name`. */
 ?>
 
-<article id="<?php echo $post->post_name; ?>" <?php post_class( 'twentyseventeen-panel ' ); ?> >
+<article id="post-<?php the_ID(); ?>" <?php post_class( 'twentyseventeen-panel ' ); ?> >
 
 	<?php if ( has_post_thumbnail() ) :
 		$thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'twentyseventeen-featured-image' );
@@ -23,7 +22,7 @@ global $twentyseventeencounter;
 
 	<?php endif; ?>
 
-	<div class="panel-content">
+	<div class="panel-content" id="<?php echo $post->post_name; ?>">
 		<div class="wrap">
 			<header class="entry-header">
 				<?php the_title( '<h2 class="entry-title">', '</h2>' ); ?>
