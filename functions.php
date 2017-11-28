@@ -31,3 +31,16 @@ function twentyseventeen_customize_register_sluganchors( $wp_customize ) {
 }
 
 add_action( 'customize_register', 'twentyseventeen_customize_register_sluganchors' );
+
+
+/*
+ * A simple function to control the number of Twenty Seventeen Theme Front Page Sections
+ * Source: wpcolt.com
+ */
+/* Uncomment + adjust the amount in case you need it:
+function twentyseventeen_custom_front_sections( $num_sections )	{
+  return 7; // Change this number to change the number of the sections.
+}
+add_filter( 'twentyseventeen_front_page_sections', 'twentyseventeen_custom_front_sections' );
+*/
+
