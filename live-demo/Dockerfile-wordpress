@@ -1,5 +1,9 @@
 FROM wordpress
 
+# Permissions fix (important)
+# (see https://github.com/docker/docker/issues/2259)
+RUN usermod -u 1000 www-data
+
 # wp cli
 RUN apt-get update \
  && apt-get install --no-install-recommends -y \
