@@ -12,6 +12,11 @@ services:
       WORDPRESS_DB_PASSWORD: example
     volumes:
       - ../:/var/www/html/wp-content/themes/twentyseventeen-onepage
+    x-pwd-post-deploy:
+      command:
+        - sh
+        - -c
+        - ./setup.sh
 
   mysql:
     image: mariadb:latest
