@@ -15,7 +15,7 @@ Child theme of Twenty Seventeen with adjustments for an one page / single page s
 1. Create a single, normal page for each section in WordPress.
 2. In Customizer, set the 'Static Front Page' option to the page to be shown as first section.
 3. In Customizer, in "Theme Options", define the sections.
-4. If you need more than the default 4 sections, enable and adjust [this commented out code in functions.php](https://github.com/strarsis/twentyseventeen-onepage/blob/master/functions.php#L37-L44):
+4. If you need more than the default 4 sections, enable and adjust [this commented out code in functions.php](https://github.com/strarsis/twentyseventeen-onepage/blob/master/functions.php#L37-L44) (see https://github.com/strarsis/twentyseventeen-onepage/issues/2#issuecomment-347379212):
 ```php
 /*
  * A simple function to control the number of Twenty Seventeen Theme Front Page Sections
