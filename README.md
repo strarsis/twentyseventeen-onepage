@@ -27,7 +27,7 @@ function twentyseventeen_custom_front_sections( $num_sections )	{
 add_filter( 'twentyseventeen_front_page_sections', 'twentyseventeen_custom_front_sections' );
 ````
 5. In Menu settings, create a new menu and create new menu items of type 'Custom Link'.
-The 'page-slug' is showing on every Page directly after the input field for the page title ('Permalink:'). The 'page slug' is the last part. E.g.: http://test.domain.com/page-1 → 'page-1' → URL='#page-1'
+The 'page-slug' is showing on every Page directly after the input field for the page title ('Permalink:'). The 'page slug' is the last part. E.g.: http://test.domain.com/page-1 → 'page-1' → URL='/#page-1'. Use `/` for index page in case you still have sub-pages so the links can go back.
 
 6. For smooth scrolling you can install the Wordpress-Plugin [jQuery Smooth Scroll](https://wordpress.org/plugins/jquery-smooth-scroll/).
 
